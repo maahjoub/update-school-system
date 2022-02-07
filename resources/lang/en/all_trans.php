@@ -26,6 +26,9 @@ return [
     'book_name' => 'book Name',
     'book_list' => 'book list',
     'add_new_book' => 'Add New Book',
+    'save_book' => 'Save Book',
+    'edit_book' => 'Edit Book',
+    'delete_book' => 'Delete Book',
 
 
 ];
