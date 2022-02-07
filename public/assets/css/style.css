@@ -1,0 +1,50 @@
+.edit-select {
+    padding: 10px;
+}
+.lines {
+    line-height: 1rem !important;
+}
+.admin-header.navbar .navbar-brand-wrapper {
+    width: 130px !important;
+}
+div.dataTables_wrapper div.dataTables_length select {
+        padding: 0px;
+    width: 45px!important;
+    border-radius: 50%!important;
+    height: 40px!important;
+}
+div.dataTables_wrapper div.dataTables_filter label,
+div.dataTables_wrapper div.dataTables_filter input {
+    width: 90% !important;
+}
+.selectpicker {
+    border-color: #ddd;
+    border-radius: 7px;
+    padding: 5px 7px;
+    margin-bottom: 10px;
+}
+.std-att {
+    width: 70px;
+    transition: all 0.5s ease-in-out;
+}
+.std-att-show{
+    position: relative;
+    width: 200px;
+}
+@media (max-width: 767px) {
+    .admin-header.navbar .navbar-brand-wrapper {
+        width: 65px !important;
+    }
+    .admin-header .navbar-brand img {
+        margin-left: -10px !important;
+        margin-right: -10px !important;
+    }
+     .rtl-fix .rlt-fix-img {
+        display: block;
+        margin: auto
+    }
+    .nav-ul {
+        flex-wrap: nowrap!important;
+        align-items: center;
+    }
+}
