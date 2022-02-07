@@ -24,6 +24,8 @@ return [
     'delete_fee_recept' => 'حذف سند القبض',
     'Name' => 'الاسم',
     'recepts_fee' => 'سندات القبض',
+    'book_list' => 'قائمة الكتب',
+    'add_new_book' => 'اضافة كتاب جديد ',
 
 
 

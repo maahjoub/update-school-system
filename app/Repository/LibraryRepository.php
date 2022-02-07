@@ -36,7 +36,7 @@ class LibraryRepository implements LibraryRepositoryInterface
             $this->uploadFile($request,'file_name');
 
             toastr()->success(trans('messages.success'));
-            return redirect()->route('library.create');
+            return redirect()->route('library.index');
         } catch (\Exception $e) {
             return redirect()->back()->with(['error' => $e->getMessage()]);
         }
