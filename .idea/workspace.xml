@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3de97e06-46e4-4e82-a8aa-f5f0f16ac9ee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Traits/AttachFilesTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Traits/AttachFilesTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Traits/MeetingZoomTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Traits/MeetingZoomTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repository/LibraryRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repository/LibraryRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar/all_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/all_trans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/all_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/all_trans.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pages/library/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/library/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +182,7 @@
       <updated>1643901845093</updated>
       <workItem from="1643901858331" duration="10032000" />
       <workItem from="1644128975984" duration="17201000" />
-      <workItem from="1644213732864" duration="3051000" />
+      <workItem from="1644213732864" duration="3567000" />
     </task>
     <servers />
   </component>

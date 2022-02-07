@@ -22,6 +22,8 @@ return [
     'edit_fee_recept' => 'edit fee recept',
     'delete_fee_recept' => 'Delete fee recept',
     'recepts_fee' => 'Recepts Fee',
+    'teacher_name' => 'Teacher Name',
+    'book_name' => 'book Name',
     'book_list' => 'book list',
     'add_new_book' => 'Add New Book',
 

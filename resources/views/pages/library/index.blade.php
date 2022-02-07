@@ -30,12 +30,12 @@
                                         <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>اسم الكتب</th>
-                                            <th>اسم المعلم</th>
-                                            <th>المرحلة الدراسية</th>
-                                            <th>الصف الدراسي</th>
-                                            <th>القسم</th>
-                                            <th>العمليات</th>
+                                            <th>{{ trans('all_trans.book_name') }} </th>
+                                            <th>{{ trans('all_trans.teacher_name') }} </th>
+                                            <th> {{ trans('all_trans.grade') }}</th>
+                                            <th> {{ trans('all_trans.classrome') }}</th>
+                                            <th>{{ trans('Sections_trans.Name_Section') }}</th>
+                                            <th>{{ trans('Students_trans.Processes') }}</th>
                                         </tr>
                                         </thead>
                                         <tbody>
