@@ -36,8 +36,6 @@ return [
     'Settings'=>'الاعدادات',
     'Users'=>'المستخدمين',
     'Copyright' => 'جميع الحقوق محفوظة ',
-    'list_students' => 'قائمة الطلاب',
-    'Students_Promotions' => 'ترقية الطلاب',
     'manage_Students_Promotions' => 'ادارة ترقية الطلاب',
     'Name_Programer' => 'محجوب محمد الطاهر',
 

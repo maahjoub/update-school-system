@@ -27,13 +27,19 @@ return [
     'book_name' => 'اسم الكتاب',
     'teacher_name' => 'اسم المعلم',
     'book_list' => 'قائمة الكتب',
-    'save_book' => 'حفظ الكتاب',
+    'save_data' => 'حفظ البيانات',
     'add_new_book' => 'اضافة كتاب جديد ',
-    'save_book' => 'حفظ الكتاب',
     'edit_book' => 'تعديل الكتاب',
     'delete_book' => 'حذف الكتاب',
-
-   '' => 'المواد الدراسية',
+    'Subjects' => 'المواد الدراسية',
+    'system_settings' => 'اعدادات النظام',
+    'school_name' => 'اسم المدرسة',
+    'school_phone' => 'هاتف المدرسة',
+    'school_address' => 'عنوان المدرسة',
+    'school_email' => ' البريد الالكتروني',
+    'school_title' => 'الاسم المختصر للمدرسة',
+    'school_logo' => 'شعار اللمدرسة',
+    'chose_school_logo' => 'اختار شعار اللمدرسة',
 
 
 

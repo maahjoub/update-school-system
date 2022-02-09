@@ -26,9 +26,17 @@ return [
     'book_name' => 'book Name',
     'book_list' => 'book list',
     'add_new_book' => 'Add New Book',
-    'save_book' => 'Save Book',
+    'save_data' => 'Save Data',
     'edit_book' => 'Edit Book',
     'delete_book' => 'Delete Book',
+    'system_settings' => 'System Settings',
+    'school_name' => 'School Name',
+    'school_phone' => 'School Phone',
+    'school_address' => 'School Address',
+    'school_email' => 'School Email Address',
+    'school_title' => 'School Title',
+    'school_logo' => 'School Logo',
+    'chose_school_logo' => 'Chose School Logo',
 
 
 ];
