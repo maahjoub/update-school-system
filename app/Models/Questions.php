@@ -13,4 +13,8 @@ class Questions extends Model
     {
         return $this->hasMany(answer::class, 'qid');
     }
+    public function subject()
+    {
+        return $this->belongsTo(Subject::class, 'subject_id');
+    }
 }

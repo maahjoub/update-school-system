@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use App\Models\Questions;
 use App\Models\answer;
+use App\Models\Subject;
 use Illuminate\Http\Request;
 
 class QuestionsController extends Controller
@@ -18,11 +19,17 @@ class QuestionsController extends Controller
     {
 
         $questions = Questions::with('answer')->orderBy('id', 'desc')->paginate(5);
+        $Subjects = Subject::get();
 
-        return view('qustion.index', compact('questions'));
+        return view('qustion.index', compact('questions', 'Subjects'));
     }
 
-    public function create()
+    public function quizes()
+    {
+        dd($request);
+        return view('qustion.quiz');
+    }
+    public function create(Request $request)
     {
         return view('qustion.quiz');
     }
@@ -36,6 +43,7 @@ class QuestionsController extends Controller
                 $My_questions = new Questions();
                 $My_questions->qustion = $question['questions'];
                 $My_questions->right_answer = $question['right_answer'];
+                $My_questions->subject_id = $question['Subject'];
                 $My_questions->save();
             }
             toastr()->success(trans('messages.success'));
@@ -65,12 +73,17 @@ class QuestionsController extends Controller
 
     public function show()
     {
-        return $questions = Questions::with('answer')->orderBy('id', 'desc')->get();
+        return $questions = Questions::with('answer')->inRandomOrder()->orderBy('id', 'desc')->get();
     }
 
+    public function chois()
+    {
+        $Subjects = Subject::get();
+        return view('qustion.edit', compact('Subjects'));
+    }
     public function edit(Questions $questions)
     {
-        //
+       //
     }
 
     public function update(Request $request, Questions $questions)

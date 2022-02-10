@@ -25,12 +25,12 @@ class DatabaseSeeder extends Seeder
         $this->call(NationalitiesTableSeeder::class);
         $this->call(religionTableSeeder::class);
         $this->call(UserTableSeeder::class);
-        $this->call(GradeTableSeeder::class);
-        $this->call(ClassromTableSeeder::class);
-        $this->call(SectionTableSeeder::class);
+        //$this->call(GradeTableSeeder::class);
+        //$this->call(ClassromTableSeeder::class);
+        //$this->call(SectionTableSeeder::class);
         $this->call(ParentTableSeeder::class);//parent
-        $this->call(StudentTableSeeder::class);
+        //$this->call(StudentTableSeeder::class);
         $this->call(TeacherTableSeder::class);
-        
+
     }
 }

@@ -20,7 +20,7 @@ function getQuestions() {
             // function addQdata
             addQdata(questionsOpj[curentIndex], Qcouny)
             // function countDown
-            countDown(120, Qcouny)
+            countDown(30, Qcouny)
             // function checkAnswers
             submitButton.onclick = () => {
                 let therightAnswer = questionsOpj[curentIndex].right_answer
@@ -35,7 +35,7 @@ function getQuestions() {
                 handelBullets()
                 // function countDown
                 clearInterval(countDownInterval)
-                countDown(120, Qcouny)
+                countDown(30, Qcouny)
                 // function showResult
                 showResult(Qcouny)
             }

@@ -65,6 +65,18 @@
                                                                                 :</label>
                                                                             <input class="form-control" type="text" name="right_answer" />
                                                                         </div>
+                                                                        <div class="col">
+                                                                            <label for="Name_en"
+                                                                                   class="mr-sm-2">{{ trans('all_trans.Name_Subject') }}
+                                                                                :</label>
+                                                                            <div class="box">
+                                                                                <select class="fancyselect" name="Subject">
+                                                                                    @foreach ($Subjects as $Subject)
+                                                                                        <option value="{{ $Subject->id }}">{{ $Subject->name }}</option>
+                                                                                    @endforeach
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>

@@ -47,6 +47,9 @@ return [
     'exams' => 'Exam questions',
     'Category' => 'Exam Category ',
     'qustions_count' => 'Qustions Count',
+    'choisess' => 'Choisess ',
+    'Name_Subject' => 'Name Subject',
+    'quiz_num' => 'Questions Number',
 
 
 ];

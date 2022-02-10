@@ -50,6 +50,9 @@ return [
     'exams' => ' اسئلة الامتحان',
     'Category' => ' امتحان مادة ',
     'qustions_count' => 'عدد الاسئلة',
+    'choisess' => 'الخيارات',
+    'Name_Subject' => 'اختر المادة',
+    'quiz_num' => 'عدد الاسئلة',
 
 
 

@@ -79,4 +79,6 @@ Route::group(
     Route::resource('settings', 'SettingController');
     Route::resource('questions', 'QuestionsController');
     Route::post('question', 'QuestionsController@storeAnswer')->name('store_answer');
+    Route::get('chois', 'QuestionsController@chois')->name('choose');
+    Route::get('quiz', 'QuestionsController@quizes')->name('quiz');
 });
