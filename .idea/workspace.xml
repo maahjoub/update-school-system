@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3de97e06-46e4-4e82-a8aa-f5f0f16ac9ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/quiz.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/quiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/qustion/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/qustion/quiz.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/questions/QuestionController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Questions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repository/QuestionRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repository/QuestionRepositoryInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2022_05_06_150339_create_questions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_02_09_011424_create_questions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Questions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Questions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/answer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/answer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_02_09_011424_create_questions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_02_09_011424_create_questions_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2022_07_09_005509_create_answers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_07_09_005509_create_answers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/all_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/all_trans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/all_trans.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/all_trans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer-scripts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer-scripts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main-sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/My_Classes/My_Classes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/My_Classes/My_Classes.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +28,14 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -179,6 +196,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="advanced.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -207,7 +225,7 @@
       <workItem from="1644298198583" duration="9319000" />
       <workItem from="1644307880067" duration="728000" />
       <workItem from="1644335959911" duration="309000" />
-      <workItem from="1644366885678" duration="2141000" />
+      <workItem from="1644366885678" duration="24750000" />
     </task>
     <servers />
   </component>

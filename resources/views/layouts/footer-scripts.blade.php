@@ -27,6 +27,7 @@
 <!-- custom -->
 <script src="{{ URL::asset('assets/js/custom.js') }}"></script>
 <script src="{{ URL::asset('assets/js/my-custom.js') }}"></script>
+<script src="{{ URL::asset('js/quiz.js') }}"></script>
 
 
 <script>
@@ -115,7 +116,7 @@
                     success: function (data) {
                         $('select[name="Classroom_id_new"]').empty();
                          $('select[name="Classroom_id_new"]').append('<option selected disabled >{{trans('Parent_trans.Choose')}}...</option>');
-                        $.each(data, function (key, value) {  
+                        $.each(data, function (key, value) {
                             $('select[name="Classroom_id_new"]').append('<option value="' + key + '">' + value + '</option>');
                         });
                     },

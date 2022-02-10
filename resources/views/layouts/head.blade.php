@@ -14,6 +14,7 @@
 @yield('css')
 <!--- Style css -->
 <link href="{{ URL::asset('assets/css/style.css') }}" rel="stylesheet">
+<link href="{{ URL::asset('assets/css/quiz.css') }}" rel="stylesheet">
 @livewireStyles
 
 <!--- Style css -->

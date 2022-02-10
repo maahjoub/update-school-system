@@ -287,8 +287,7 @@
                         <input class="text" type="hidden" id="delete_all_id" name="delete_all_id" value=''>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary"
-                                data-dismiss="modal">{{ trans('My_Classes_trans.Close') }}</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">{{ trans('My_Classes_trans.Close') }}</button>
                         <button type="submit" class="btn btn-danger">{{ trans('My_Classes_trans.submit') }}</button>
                     </div>
                 </form>

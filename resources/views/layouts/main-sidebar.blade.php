@@ -175,6 +175,7 @@
                         <ul id="Quizzes-icon" class="collapse" data-parent="#sidebarnav">
                             <li> <a href="{{route('Quizzes.index')}}">قائمة الاختبارات</a> </li>
                             <li> <a href="{{route('questions.index')}}">قائمة الاسئلة</a> </li>
+                            <li> <a href="{{route('questions.create')}}"> ابدأ الامتحان</a> </li>
                         </ul>
                     </li>
 

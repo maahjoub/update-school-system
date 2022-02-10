@@ -40,6 +40,16 @@ return [
     'school_title' => 'الاسم المختصر للمدرسة',
     'school_logo' => 'شعار اللمدرسة',
     'chose_school_logo' => 'اختار شعار اللمدرسة',
+    'answers' => 'الاجابات',
+    'add_answers' => 'اضافة اجابة',
+    'add_right_answers' => 'اضافة الاجابة الصحيحة',
+    'qustions' => 'الاسئلة',
+    'add_question' => 'اضافة سؤال',
+    'chose_qustions' => 'اختر سؤال',
+    'exam' => ' الاختبارات',
+    'exams' => ' اسئلة الامتحان',
+    'Category' => ' امتحان مادة ',
+    'qustions_count' => 'عدد الاسئلة',
 
 
 

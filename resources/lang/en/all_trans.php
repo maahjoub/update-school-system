@@ -37,6 +37,16 @@ return [
     'school_title' => 'School Title',
     'school_logo' => 'School Logo',
     'chose_school_logo' => 'Chose School Logo',
+    'answers' => 'answers',
+    'add_answers' => 'add answers',
+    'add_right_answers' => 'add right answers',
+    'qustions' => 'qustions',
+    'chose_qustions' => 'chose a qustions',
+    'add_question' => 'Add Question',
+    'exam' => 'the exams',
+    'exams' => 'Exam questions',
+    'Category' => 'Exam Category ',
+    'qustions_count' => 'Qustions Count',
 
 
 ];
