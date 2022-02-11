@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3de97e06-46e4-4e82-a8aa-f5f0f16ac9ee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/qustion/edit.blade.php" beforeDir="false" />
-    </list>
+    <list default="true" id="3de97e06-46e4-4e82-a8aa-f5f0f16ac9ee" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,6 +209,7 @@
       <workItem from="1644335959911" duration="309000" />
       <workItem from="1644366885678" duration="24750000" />
       <workItem from="1644496630606" duration="6303000" />
+      <workItem from="1644596923739" duration="321000" />
     </task>
     <servers />
   </component>
