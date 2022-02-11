@@ -31,6 +31,7 @@ class OnlineClasseController extends Controller
 
             $meeting = $this->createMeeting($request);
             online_classe::create([
+                'integration' => true,
                 'Grade_id' => $request->Grade_id,
                 'Classroom_id' => $request->Classroom_id,
                 'section_id' => $request->section_id,

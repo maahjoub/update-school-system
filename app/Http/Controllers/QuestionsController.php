@@ -10,11 +10,6 @@ use Illuminate\Http\Request;
 
 class QuestionsController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
 
@@ -23,17 +18,14 @@ class QuestionsController extends Controller
 
         return view('qustion.index', compact('questions', 'Subjects'));
     }
-
     public function quizes()
     {
-        dd($request);
         return view('qustion.quiz');
     }
     public function create(Request $request)
     {
         return view('qustion.quiz');
     }
-
     public function store(Request $request)
     {
         $questions = $request->List_Classes;
@@ -70,27 +62,18 @@ class QuestionsController extends Controller
             return redirect()->back()->withErrors(['error' => $e->getMessage()]);
         }
     }
-
     public function show()
     {
         return $questions = Questions::with('answer')->inRandomOrder()->orderBy('id', 'desc')->get();
-    }
-
-    public function chois()
-    {
-        $Subjects = Subject::get();
-        return view('qustion.edit', compact('Subjects'));
     }
     public function edit(Questions $questions)
     {
        //
     }
-
     public function update(Request $request, Questions $questions)
     {
         //
     }
-
     public function destroy(Questions $questions)
     {
         //
