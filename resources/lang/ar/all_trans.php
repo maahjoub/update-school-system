@@ -53,6 +53,7 @@ return [
     'choisess' => 'الخيارات',
     'Name_Subject' => 'اختر المادة',
     'quiz_num' => 'عدد الاسئلة',
+    'save_book' => 'حفظ الكتاب',
 
 
 

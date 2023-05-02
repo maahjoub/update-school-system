@@ -1,5 +1,7 @@
 <?php
+
 namespace Database\Seeders;
+
 use Illuminate\Database\Seeder;
 use Database\Seeders\UserTableSeeder;
 use Database\Seeders\BloodTableSeeder;
@@ -25,12 +27,11 @@ class DatabaseSeeder extends Seeder
         $this->call(NationalitiesTableSeeder::class);
         $this->call(religionTableSeeder::class);
         $this->call(UserTableSeeder::class);
-        //$this->call(GradeTableSeeder::class);
-        //$this->call(ClassromTableSeeder::class);
-        //$this->call(SectionTableSeeder::class);
-        $this->call(ParentTableSeeder::class);//parent
-        //$this->call(StudentTableSeeder::class);
+        $this->call(GradeTableSeeder::class);
+        $this->call(ClassromTableSeeder::class);
+        $this->call(SectionTableSeeder::class);
+        $this->call(ParentTableSeeder::class); //parent
+        $this->call(StudentTableSeeder::class);
         $this->call(TeacherTableSeder::class);
-
     }
 }

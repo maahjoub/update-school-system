@@ -50,6 +50,7 @@ return [
     'choisess' => 'Choisess ',
     'Name_Subject' => 'Name Subject',
     'quiz_num' => 'Questions Number',
+    'save_book' => 'Save Book',
 
 
 ];

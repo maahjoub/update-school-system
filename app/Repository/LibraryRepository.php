@@ -13,13 +13,13 @@ class LibraryRepository implements LibraryRepositoryInterface
     public function index()
     {
         $books = Library::all();
-        return view('pages.library.index',compact('books'));
+        return view('pages.library.index', compact('books'));
     }
 
     public function create()
     {
         $grades = Grade::all();
-        return view('pages.library.create',compact('grades'));
+        return view('pages.library.create', compact('grades'));
     }
 
     public function store($request)
@@ -33,7 +33,7 @@ class LibraryRepository implements LibraryRepositoryInterface
             $books->section_id = $request->section_id;
             $books->teacher_id = 1;
             $books->save();
-            $this->uploadFile($request,'file_name');
+            $this->uploadFile($request, 'file_name', $request->title);
 
             toastr()->success(trans('messages.success'));
             return redirect()->route('library.index');
@@ -46,7 +46,7 @@ class LibraryRepository implements LibraryRepositoryInterface
     {
         $grades = Grade::all();
         $book = library::findorFail($id);
-        return view('pages.library.edit',compact('book','grades'));
+        return view('pages.library.edit', compact('book', 'grades'));
     }
 
     public function update($request)
@@ -56,11 +56,11 @@ class LibraryRepository implements LibraryRepositoryInterface
             $book = library::findorFail($request->id);
             $book->title = $request->title;
 
-            if($request->hasfile('file_name')){
+            if ($request->hasfile('file_name')) {
 
                 $this->deleteFile($book->file_name);
 
-                $this->uploadFile($request,'file_name');
+                $this->uploadFile($request, 'file_name');
 
                 $file_name_new = $request->file('file_name')->getClientOriginalName();
                 $book->file_name = $book->file_name !== $file_name_new ? $file_name_new : $book->file_name;
@@ -88,7 +88,6 @@ class LibraryRepository implements LibraryRepositoryInterface
 
     public function download($filename)
     {
-        return response()->download(public_path('attachments/library/'.$filename));
+        return response()->download(public_path('attachments/library/' . $filename));
     }
-
 }
