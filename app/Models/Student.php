@@ -7,13 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 use Spatie\Translatable\HasTranslations;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class Student extends Model
+class Student extends Authenticatable
 {
     use HasFactory, HasTranslations, SoftDeletes;
     public $translatable = ['name'];
-    protected $guarded =[];
-        // علاقة بين الطلاب والانواع لجلب اسم النوع في جدول الطلاب
+    protected $guarded = [];
+    // علاقة بين الطلاب والانواع لجلب اسم النوع في جدول الطلاب
 
     public function gender()
     {
@@ -42,12 +43,12 @@ class Student extends Model
         return $this->belongsTo('App\Models\Section', 'section_id');
     }
 
-        // علاقة بين الطلاب والصور لجلب اسم الصور  في جدول الطلاب
+    // علاقة بين الطلاب والصور لجلب اسم الصور  في جدول الطلاب
     public function images()
     {
         return $this->morphMany(Image::class, 'imageable');
     }
-        public function Nationality()
+    public function Nationality()
     {
         return $this->belongsTo('App\Models\Nationalitie', 'nationalitie_id');
     }
@@ -63,7 +64,6 @@ class Student extends Model
     public function student_account()
     {
         return $this->hasMany('App\Models\StudentAccount', 'student_id');
-
     }
 
     // علاقة بين جدول الطلاب وجدول الحضور والغياب
@@ -71,5 +71,4 @@ class Student extends Model
     {
         return $this->hasMany('App\Models\Attendance', 'student_id');
     }
-
 }

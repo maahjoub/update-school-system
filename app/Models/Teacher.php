@@ -8,14 +8,15 @@ use App\Models\Specializations;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\Translatable\HasTranslations;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class Teacher extends Model
+class Teacher extends Authenticatable
 {
     use HasFactory, HasTranslations;
     protected $guarded = [];
     public $translatable = ['Name'];
 
-        // علاقة بين المعلمين والتخصصات لجلب اسم التخصص
+    // علاقة بين المعلمين والتخصصات لجلب اسم التخصص
     public function specializations()
     {
         return $this->belongsTo(Specializations::class, 'Specialization_id');
@@ -30,7 +31,6 @@ class Teacher extends Model
     // علاقة المعلمين مع الاقسام
     public function Sections()
     {
-        return $this->belongsToMany(Section::class,'teacher_section');
+        return $this->belongsToMany(Section::class, 'teacher_section');
     }
-
 }
