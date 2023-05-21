@@ -32,7 +32,7 @@ Route::group(
         });
         Route::group(
             [
-                'middleware' => ['auth:student', 'auth:web', 'auth:parent', 'auth:teacher']
+                'middleware' => ['auth']
             ],
             function () {
                 //==============================dashboard============================

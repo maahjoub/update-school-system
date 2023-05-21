@@ -24,7 +24,7 @@ Route::group(
 
         //==============================dashboard============================
         Route::get('/teacher/dashboard', function () {
-            return view('pages.teacher.dashboard');
+            return view('pages.Teachers.dashboard.dashboard');
         });
     }
 );
